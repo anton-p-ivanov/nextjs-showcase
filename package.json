@@ -1,7 +1,9 @@
 {
-  "name": "react-showcase",
+  "name": "nextjs-showcase",
+  "description": "Next.JS Showcase Application",
   "homepage": "https://anton-p-ivanov.github.io/nextjs-showcase/",
   "version": "0.1.0",
+  "author": "Anton P. Ivanov",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
