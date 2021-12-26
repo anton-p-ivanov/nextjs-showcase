@@ -1,12 +1,14 @@
 {
   "name": "react-showcase",
-  "homepage": "https://anton-p-ivanov.github.io/react-showcase/",
+  "homepage": "https://anton-p-ivanov.github.io/nextjs-showcase/",
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export -o build",
+    "publish": "gh-pages -d build"
   },
   "dependencies": {
     "next": "^12.0.7",
@@ -16,6 +18,7 @@
   "devDependencies": {
     "@types/node": "^17.0.4",
     "@types/react": "^17.0.38",
+    "gh-pages": "^3.2.3",
     "typescript": "^4.5.4"
   }
 }
